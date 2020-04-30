@@ -1,0 +1,23 @@
+{
+    "name": "bahirul/yii2-simple-s3",
+    "description": "Simple Yii2 extension for custom S3 filesystem",
+    "type": "extension",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "yiisoft/yii2": "^2.0",
+        "league/flysystem": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "bahirul\\s3\\": "src"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bahirul Rizki Ariyanto",
+            "email": "rizki.device@gmail.com"
+        }
+    ]
+}

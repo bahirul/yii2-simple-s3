@@ -1,6 +1,6 @@
 # Simple Custom S3 for Yii2
 
-Simple extension for custom S3 filesystem with basic functionality : read, write, delete.
+Simple extension for custom S3 filesystem with basic functionality : read, write, delete.  
 This extension use [Flysystem](http://flysystem.thephpleague.com/) as core filesystem.
 
 ## Installation
@@ -63,6 +63,7 @@ $readFile = $s3->readFile($fileRequest);
 
 // init web response
 $response = Yii::$app->response;
+$response->headers->set('Content-Type', $readFile['mimetype']);
 $response->format = \yii\web\Response::FORMAT_RAW;
 $response->stream = $readFile['stream'];
 

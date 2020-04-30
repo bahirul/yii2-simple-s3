@@ -10,13 +10,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```bash
-$ composer require bahirul/yii2-s3-custom
+$ composer require bahirul/yii2-simple-s3
 ```
 
 or add
 
 ```
-"bahirul/yii2-s3-custom": "~0.0.1"
+"bahirul/yii2-simple-s3": "~0.0.1"
 ```
 
 to the `require` section of your `composer.json` file.

@@ -35,9 +35,9 @@ return [
             'endpoint' => 'YOUR_S3_URL',
             'key'    => 'YOUR_S3_KEY',
             'secret' => 'YOUR_S3_SECRET',
-            'region' => 'YOUR_S3_REGION',
-            'version' => 'YOUR_S3_VERSION',
             'bucket' => 'YOUR_S3_BUCKET',
+            //'region' => 'YOUR_S3_REGION', // Optional
+            //'version' => 'YOUR_S3_VERSION', // Optional
         ],
     ],
 ];

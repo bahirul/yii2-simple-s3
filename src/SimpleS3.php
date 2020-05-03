@@ -18,9 +18,9 @@ class SimpleS3 extends Component
 
 	public $secret;
 
-	public $region;
+	public $region = 'ID'; // Default value is `ID`
 
-	public $version;
+	public $version = 'latest' ; // Default value is `latest`
 
 	public $bucket;
 

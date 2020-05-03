@@ -16,7 +16,7 @@ $ composer require bahirul/yii2-simple-s3
 or add
 
 ```
-"bahirul/yii2-simple-s3": "~0.0.1"
+"bahirul/yii2-simple-s3": "^0.0.2"
 ```
 
 to the `require` section of your `composer.json` file.

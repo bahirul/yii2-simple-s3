@@ -31,7 +31,7 @@ return [
     'components' => [
         //...
         's3' => [
-            'class' => 'bahirul\s3\Yii2SimpleS3',
+            'class' => 'bahirul\yii2\SimpleS3',
             'endpoint' => 'YOUR_S3_URL',
             'key'    => 'YOUR_S3_KEY',
             'secret' => 'YOUR_S3_SECRET',

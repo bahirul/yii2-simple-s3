@@ -1,5 +1,5 @@
 <?php
-namespace bahirul\s3;
+namespace bahirul\yii2;
 
 use yii\base\Component;
 use yii\base\InvalidConfigException;
@@ -10,7 +10,7 @@ use Aws\S3\S3Client;
 use League\Flysystem\AwsS3v3\AwsS3Adapter;
 use League\Flysystem\Filesystem;
 
-class Yii2SimpleS3 extends Component
+class SimpleS3 extends Component
 {
 	public $endpoint;
 

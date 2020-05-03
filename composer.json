@@ -10,7 +10,7 @@
     },
     "autoload": {
         "psr-4": {
-            "bahirul\\s3\\": "src"
+            "bahirul\\yii2\\": "src"
         }
     },
     "license": "MIT",
